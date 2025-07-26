@@ -13,7 +13,7 @@ namespace Library.Controllers
         }
         public Context Context { get; set; }
 
-        [HttpPost]
+        [HttpPost("Register")]
         public ActionResult Register(User user)
         {
             user.AccountStatus = AccountStatus.UNAPROOVED;

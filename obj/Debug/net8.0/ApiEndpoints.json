@@ -2,7 +2,7 @@
   {
     "ContainingType": "Library.Controllers.LibraryController",
     "Method": "Register",
-    "RelativePath": "api/Library",
+    "RelativePath": "api/Library/Register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
