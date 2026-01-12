@@ -39,10 +39,11 @@ namespace Library.Controllers
                     </body>
                 </html>
             """;
+            EmailService.SendEmail(user.Email, subject, body);
             return Ok(@"Thank you for registering. 
                         Your account has been sent for aprooval. 
                         Once it is aprooved, you will get an email.");
-            EmailService.SendEmail(user.Email, subject, body);
+            
         }
     }
 }
